@@ -1,0 +1,36 @@
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* Add some space between the project cards */
+  }
+  
+  .project {
+    flex: 1;
+    max-width: 30%; /* Adjust as needed */
+    min-width: 250px; /* Ensure the project cards don't get too small */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better separation */
+    border-radius: 8px; /* Slightly round the corners */
+    overflow: hidden;
+    background-color: #fff;
+    padding: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+  }
+  
