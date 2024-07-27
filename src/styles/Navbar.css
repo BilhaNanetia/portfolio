@@ -1,4 +1,3 @@
-/* Navbar.css */
 .navbar {
     width: 100%;
     padding: 1rem 0;
@@ -11,11 +10,16 @@
     align-items: center;
     width: 100%;
   }
+
+  .logo {
+    height: 7rem; /* Adjust size as necessary */
+    width: auto;
+  }
   
   .nav-links {
-    flex: 1;
     display: flex;
     justify-content: center;
+    flex: 1;
   }
   
   .nav-links li {

@@ -22,7 +22,8 @@ const Navbar = () => {
 
   return (
     <nav className="navbar mt-4">
-      <div className="navbar-content">
+      <div className="navbar-content flex items-center justify-between">
+        <img src="/assets/images/logo.png" alt="Bilha Leposo Logo" className="logo" />
         <ul className="nav-links flex space-x-4 justify-center">
           <li><Link to="/" className="hover:underline">Home</Link></li>
           <li><Link to="/about" className="hover:underline">About</Link></li>

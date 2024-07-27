@@ -1,14 +1,14 @@
 import React from 'react';
 
 const Skills = () => {
-  const skills = [
+  const technicalSkills = [
     {
       name: 'JavaScript',
       details: 'Experienced in modern JavaScript (ES6+), including concepts like asynchronous programming, and DOM manipulation.'
     },
     {
       name: 'Python',
-      details: 'Proficient in Python for web development (Flask).'
+      details: 'Proficient in Python for server-side web development.'
     },
     {
       name: 'React',
@@ -37,7 +37,10 @@ const Skills = () => {
     {
       name: 'Tailwind CSS',
       details: 'Skilled in using Tailwind CSS for utility-first styling, creating custom designs with ease and maintaining a responsive layout.'
-    },
+    }
+  ];
+
+  const otherSkills = [
     {
       name: 'Auto-Mobile Engineering',
       details: 'Experienced in motorbike diagnostics and maintenance. Knowledgeable in motorbike systems and components, including engines, transmissions, and electronic systems.'
@@ -52,7 +55,15 @@ const Skills = () => {
     <section id="skills" className="p-6">
       <h2 className="text-3xl font-semibold mb-4">Technical Skills</h2>
       <ul className="list-disc list-inside">
-        {skills.map((skill, index) => (
+        {technicalSkills.map((skill, index) => (
+          <li key={index} className="text-lg mb-2">
+            <strong>{skill.name}:</strong> {skill.details}
+          </li>
+        ))}
+      </ul>
+      <h2 className="text-3xl font-semibold mb-4 mt-6">Other Skills</h2>
+      <ul className="list-disc list-inside">
+        {otherSkills.map((skill, index) => (
           <li key={index} className="text-lg mb-2">
             <strong>{skill.name}:</strong> {skill.details}
           </li>

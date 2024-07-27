@@ -11,11 +11,9 @@ const About = () => {
     "Pets",
     "Swimming",
     "Travelling"
-    
   ];
 
   const books = [
-    
     "Clean Code: A Handbook of Agile Software Craftsmanship by Robert C. Martin",
     "Artificial Intelligence: A Modern Approach by Stuart Russell and Peter Norvig",
     "How the Internet of Things Is Changing Our World by Vint Cerf"
@@ -34,12 +32,50 @@ const About = () => {
     { quote: "The scientist discovers a new type of material or energy and the engineer discovers a new use for it.", author: "Gordon Lindsay Glegg" }
   ];
 
+  const education = [
+    {
+      institution: "Moringa School",
+      qualification: "Full Stack Web Development; Python with Flask,React, JavaScript, HTML, CSS"
+    },
+    {
+      institution: "LinkedIn Courses",
+      courses: [
+        "TeamWork Foundations",
+        "Creating and Giving Business Presentations",
+        "Problem-Solving Techniques",
+        "Leading Yourself",
+        "Communication Foundations",
+        "Design Thinking: Understanding the Process"
+      ]
+    },
+    {
+      institution: "CAPYEI, MasterCard Foundation",
+      qualification: "Auto-Mobile Engineering"
+    }
+  ];
+
   return (
     <section id="about" className="p-6">
       <h2 className="text-3xl font-semibold mb-4">About Me</h2>
       <p>
-        I am a beginner Software Developer with a background in Auto-Mobile engineering. I have a passion for the automobile sector and studied software development to apply these skills in the automotive industry.
+        I am a beginner Software Developer with a background in Auto-Mobile Engineering. I have a passion for the automobile sector and studied software development to apply these skills in the automotive industry.
       </p>
+      <h3 className="text-2xl font-semibold mt-6 mb-4">Education</h3>
+      <ul className="list-disc list-inside ml-4">
+        {education.map((edu, index) => (
+          <li key={index} className="mb-2">
+            <strong>{edu.institution}</strong>
+            {edu.qualification && <div>{edu.qualification}</div>}
+            {edu.courses && (
+              <ul className="list-inside ml-4">
+                {edu.courses.map((course, idx) => (
+                  <li key={idx}>{course}</li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
       <h3 className="text-2xl font-semibold mt-6 mb-4">Interests/Hobbies</h3>
       <ul className="list-disc list-inside ml-4">
         {hobbies.map((hobby, index) => (
