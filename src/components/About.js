@@ -8,9 +8,9 @@ const About = () => {
     "Knowledge",
     "Philosophy",
     "Food",
-    "Pets",
     "Swimming",
-    "Travelling"
+    "Travelling",
+    <a href="https://drive.google.com/file/d/1jaz69xPJHv32i1zirkpkiuuL2Lk9EBQg/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'blue', textDecoration: 'underline' }}>Pets</a>
   ];
 
   const books = [

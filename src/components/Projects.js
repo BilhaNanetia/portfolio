@@ -8,7 +8,7 @@ const Projects = () => {
       image: '/assets/images/Screenshot from 2024-07-26 16-22-32.png',
       description: "A full-stack web application for managing sales and inventory of motorbike spares.",
       github: "https://github.com/BilhaNanetia/sales-and-inventory",
-      demo: "https://drive.google.com/file/d/1Cjk-DCxM2FFyfCxrVo-Wb6l3fy_OEQ36/view?usp=sharing",
+      demo: "https://drive.google.com/file/d/1ouDK5gQDKZlh4YTnIhaDg9nVHilZh903/view?usp=sharing",
       details: [
         "Frontend: Developed a responsive user interface using HTML5, JavaScript, and Tailwind CSS.",
         "Backend: Utilized Python, Flask, and SQLite.",
@@ -20,7 +20,7 @@ const Projects = () => {
       image: '/assets/images/Screenshot from 2024-07-26 16-15-51.png',
       description: "A full-stack web application for users to share, discover, and manage recipes.",
       github: "https://github.com/BilhaNanetia/phase-4-final-project",
-      demo: "https://drive.google.com/file/d/1ESNyRnuVN5DBd7zSael91W_w9MneY8eK/view?usp=sharing",
+      demo: "https://drive.google.com/file/d/1Ev3CyWQtBCKbLhFLde_nAgTSq773C117/view?usp=sharing",
       details: [
         "Frontend: React (JavaScript Library).",
         "Backend: Flask (Python Framework).",
@@ -33,7 +33,7 @@ const Projects = () => {
       image: '/assets/images/Screenshot from 2024-07-26 16-08-40.png',
       description: "Developed a Python command-line application (CLI) for managing schools, courses, and students.",
       github: "https://github.com/BilhaNanetia/education-system-phase-3-final-project",
-      demo: "https://drive.google.com/file/d/1PtLdO1bkt3EiMxmCp1plFsOAqeSlgd6B/view?usp=sharing",
+      demo: "https://drive.google.com/file/d/1v59_AyXN6nmFebA9GKmI6h7vIxyyEVbr/view?usp=sharing",
       details: [
         "Implemented CRUD (Create, Read, Update, Delete) operations for all entities.",
         "Utilized Object-Relational Mapping (ORM) to interact with a SQLite database, ensuring data persistence.",
