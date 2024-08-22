@@ -19,6 +19,10 @@ const Skills = () => {
       details: 'Experienced in developing backend APIs with Flask, including user authentication, RESTful APIs, and integration with databases.'
     },
     {
+      name: 'Django',
+      details: 'Proficient in Django for building robust and scalable web applications with an emphasis on ORM, templating, and security.'
+    },
+    {
       name: 'HTML',
       details: 'Proficient in HTML5 for creating structured and semantic web content.'
     },

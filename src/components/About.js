@@ -21,13 +21,10 @@ const About = () => {
 
   const quotes = [
     { quote: "The best way to predict the future is to create it.", author: "Alan Kay" },
-    { quote: "Innovation distinguishes between a leader and a follower.", author: "Steve Jobs" },
-    { quote: "The important thing is not to stop questioning. Curiosity has its own reason for existing.", author: "Albert Einstein" },
     { quote: "The only way to do great work is to love what you do.", author: "Steve Jobs" },
     { quote: "Progress is impossible without change, and those who cannot change their minds cannot change anything.", author: "George Bernard Shaw" },
     { quote: "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.", author: "Martin Luther King Jr." },
     { quote: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt" },
-    { quote: "You can't connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future.", author: "Steve Jobs" },
     { quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.", author: "Nelson Mandela" },
     { quote: "The scientist discovers a new type of material or energy and the engineer discovers a new use for it.", author: "Gordon Lindsay Glegg" }
   ];
@@ -40,12 +37,14 @@ const About = () => {
     {
       institution: "LinkedIn Courses",
       courses: [
+        "Learning Django",
         "TeamWork Foundations",
         "Creating and Giving Business Presentations",
         "Problem-Solving Techniques",
         "Leading Yourself",
         "Communication Foundations",
-        "Design Thinking: Understanding the Process"
+        "Design Thinking: Understanding the Process",
+        "Project Management Foundations"
       ]
     },
     {
@@ -58,7 +57,7 @@ const About = () => {
     <section id="about" className="p-6">
       <h2 className="text-3xl font-semibold mb-4">About Me</h2>
       <p>
-        I am a beginner Software Developer with a background in Auto-Mobile Engineering. I have a passion for the automobile sector and studied software development to apply these skills in the automotive industry.
+        I am a beginner Software Developer with a background in Auto-Mobile Engineering. I have a passion for the automobile sector and studied software development to apply these skills in the automobile industry.
       </p>
       <h3 className="text-2xl font-semibold mt-6 mb-4">Education</h3>
       <ul className="list-disc list-inside ml-4">
