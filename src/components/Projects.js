@@ -5,10 +5,10 @@ const Projects = () => {
   const projects = [
     {
       title: "BeeMoto Sales and Inventory Tracker",
-      image: '/assets/images/Screenshot from 2024-07-26 16-22-32.png',
+      image: '/assets/images/Screenshot from 2024-08-25 18-17-08.png',
       description: "A full-stack web application for managing sales and inventory of motorbike spares.",
       github: "https://github.com/BilhaNanetia/sales-and-inventory",
-      demo: "https://drive.google.com/file/d/1ouDK5gQDKZlh4YTnIhaDg9nVHilZh903/view?usp=sharing",
+      demo: "https://drive.google.com/file/d/1bvFqGCUUZ5P40bhQubbNXhXGV5maxzCh/view?usp=sharing",
       details: [
         "Frontend: Developed a responsive user interface using HTML5, JavaScript, and Tailwind CSS.",
         "Backend: Utilized Python, Flask, and SQLite.",
