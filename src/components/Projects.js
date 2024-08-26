@@ -44,24 +44,24 @@ const Projects = () => {
 
   return (
     <section id="projects" className="projects-section p-6">
-      <h2 className="text-3xl font-semibold mb-4">Technical Projects</h2>
-      <div className="projects-row">
+      <h2 className="text-3xl font-semibold mb-4 text-center">Technical Projects</h2>
+      <div className="projects-row grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="project mb-6">
-            <h3 className="text-2xl font-semibold">{project.title}</h3>
+          <div key={index} className="project bg-white p-4 rounded-lg shadow-md">
+            <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
             <img 
               src={project.image} 
               alt={project.title} 
-              className="project-image mb-4"
+              className="project-image w-full h-auto mb-4 rounded-md"
             />
-            <p>{project.description}</p>
-            <ul className="list-disc list-inside ml-4 mb-2">
+            <p className="mb-2">{project.description}</p>
+            <ul className="list-disc list-inside ml-4 mb-4">
               {project.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
+                <li key={i} className="mb-1">{detail}</li>
               ))}
             </ul>
-            <div className="mb-4">
-              <a href={project.github} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+            <div className="text-center">
+              <a href={project.github} className="text-blue-500 hover:underline mr-2" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
               {' | '}
               <a href={project.demo} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Demo</a>
             </div>

@@ -54,12 +54,12 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="p-6">
-      <h2 className="text-3xl font-semibold mb-4">About Me</h2>
+    <section id="about" className="p-4 sm:p-6">
+      <h2 className="text-2xl sm:text-3xl font-semibold mb-4">About Me</h2>
       <p>
         I am a beginner Software Developer with a background in Auto-Mobile Engineering. I have a passion for the automobile sector and studied software development to apply these skills in the automobile industry.
       </p>
-      <h3 className="text-2xl font-semibold mt-6 mb-4">Education</h3>
+      <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-4">Education</h3>
       <ul className="list-disc list-inside ml-4">
         {education.map((edu, index) => (
           <li key={index} className="mb-2">
@@ -75,19 +75,19 @@ const About = () => {
           </li>
         ))}
       </ul>
-      <h3 className="text-2xl font-semibold mt-6 mb-4">Interests/Hobbies</h3>
+      <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-4">Interests/Hobbies</h3>
       <ul className="list-disc list-inside ml-4">
         {hobbies.map((hobby, index) => (
           <li key={index}>{hobby}</li>
         ))}
       </ul>
-      <h3 className="text-2xl font-semibold mt-6 mb-4">Favorite Books</h3>
+      <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-4">Favorite Books</h3>
       <ul className="list-disc list-inside ml-4">
         {books.map((book, index) => (
           <li key={index}>{book}</li>
         ))}
       </ul>
-      <h3 className="text-2xl font-semibold mt-6 mb-4">Philosophical Quotes</h3>
+      <h3 className="text-xl sm:text-2xl font-semibold mt-6 mb-4">Philosophical Quotes</h3>
       <ul className="list-disc list-inside ml-4">
         {quotes.map((quote, index) => (
           <li key={index} className="mb-2">

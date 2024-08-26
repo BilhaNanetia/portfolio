@@ -57,18 +57,18 @@ const Skills = () => {
 
   return (
     <section id="skills" className="p-6">
-      <h2 className="text-3xl font-semibold mb-4">Technical Skills</h2>
-      <ul className="list-disc list-inside">
+      <h2 className="text-3xl font-semibold mb-4 text-center">Technical Skills</h2>
+      <ul className="list-disc list-inside space-y-2">
         {technicalSkills.map((skill, index) => (
-          <li key={index} className="text-lg mb-2">
+          <li key={index} className="text-lg">
             <strong>{skill.name}:</strong> {skill.details}
           </li>
         ))}
       </ul>
-      <h2 className="text-3xl font-semibold mb-4 mt-6">Other Skills</h2>
-      <ul className="list-disc list-inside">
+      <h2 className="text-3xl font-semibold mb-4 mt-6 text-center">Other Skills</h2>
+      <ul className="list-disc list-inside space-y-2">
         {otherSkills.map((skill, index) => (
-          <li key={index} className="text-lg mb-2">
+          <li key={index} className="text-lg">
             <strong>{skill.name}:</strong> {skill.details}
           </li>
         ))}

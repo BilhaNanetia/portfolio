@@ -2,10 +2,10 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <section id="experience" className="p-6">
-      <h2 className="text-3xl font-semibold mb-4">Experience</h2>
+    <section id="experience" className="p-4 sm:p-6">
+      <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Experience</h2>
       <div className="mb-4">
-        <h3 className="text-2xl font-semibold">AutoMobile Sales Associate</h3>
+        <h3 className="text-xl sm:text-2xl font-semibold">AutoMobile Sales Associate</h3>
         <p className="italic">Demwas Motorbikes, Narok</p>
         <p>2022 – 2023</p>
         <ul className="list-disc list-inside ml-4 mt-2">
