@@ -1,5 +1,5 @@
 import React from 'react';
-import { HiOutlineDownload } from 'react-icons/hi'; // Import HiOutlineDownload icon
+import { HiOutlineDownload } from 'react-icons/hi'; 
 
 const Contact = () => {
   return (
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="text-center mt-6">
-          <a href="/assets/files/Resume Bilha Leposo-2.pdf" download="Resume Bilha Leposo-2.pdf" className="flex items-center justify-center text-blue-500">
+          <a href="/assets/files/Resume Bilha Leposo-6.pdf" download="Resume Bilha Leposo-6.pdf" className="flex items-center justify-center text-blue-500">
             <HiOutlineDownload size="1.5rem" className="mr-2" />
             <span className="text-xl font-semibold">Download My Resume</span>
           </a>
